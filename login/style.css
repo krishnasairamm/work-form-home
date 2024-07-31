@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+}
+form{
+    background-color: white;
+    display: block; 
+    align-items: center; 
+    max-width:30%;
+    margin-top: 20%;
+    border-radius: 5px;
+}
+form > h1{
+    text-align: center;
+}
