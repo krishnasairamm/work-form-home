@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    
+   
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="maincontainer">
+        <form action="" class="mx-auto p-2" onsubmit="return loginFormValidation()" name="registration">
+            <h1>LOGIN</h1>
+            <div class="mb-3">
+                <label for="email">Email ID:</label><br>
+                <input type="email" id="email" name="email" class="form-control">
+                <p id="emailError"></p>
+            </div>
+            <div class="mb-3">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" class="form-control">
+                <p id="passwordError"></p>
+            </div>    
+            <button type="submit" name="submit" id="submitButton">Login</button>
+        </form>
+    </div>
+</body>
+</html>
