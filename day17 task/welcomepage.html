@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="webcontainer">
+        <div class="welcome">
+            <h1>WELCOME</h1>
+        </div>
+        <div class="countdown">
+            <p id="timer">TIMER</p>
+            <button  class="material-symbols-outlined" onclick="return logout()">logout</button>
+        </div>
+        <div class="tablecontainer">
+            <table>
+                <tr>
+                    <th>Employee_id</th>
+                    <th>Employee_name</th>
+                    <th>Employee_age</th>
+                    <th>Employee_email</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>John Wick</td>
+                    <td>25</td>
+                    <td>johnwick@gmail.com</td>
+                    <td>
+                        <button class="material-symbols-outlined edit">edit</button>
+                        <button class="material-symbols-outlined delete">delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Winston</td>
+                    <td>50</td>
+                    <td>winston@gmail.com</td>
+                    <td>
+                        <button class="material-symbols-outlined edit">edit</button>
+                        <button class="material-symbols-outlined delete">delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Caine</td>
+                    <td>30</td>
+                    <td>caine@gmail.com</td>
+                    <td>
+                        <button class="material-symbols-outlined edit">edit</button>
+                        <button class="material-symbols-outlined delete">delete</button>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</body>
+</html>
